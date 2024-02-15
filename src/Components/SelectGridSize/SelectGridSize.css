@@ -1,0 +1,9 @@
+.select-grid-div {
+  cursor: pointer;
+  background: none;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 15rem;
+  font-size: 20px;
+  margin: 5px;
+}

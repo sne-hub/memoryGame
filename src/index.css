@@ -1,0 +1,27 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --hue: 220;
+    --accent: var(--hue) 50% 50%;
+    --bkg: var(--hue) 40% 98%;
+    --txt: var(--hue) 70% 12%;
+  }
+
+  body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+    min-height: 100vh;
+    font-size: 3rem;
+    background-color: hsl(var(--accent)/.1);
+    align-items: center;
+  }
